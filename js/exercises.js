@@ -83,4 +83,4 @@ window.addEventListener("load",getUserPosition,false);
 //8. Modify this so that the loop  adds markers to the map showing the location of each takeaway. You might have to adjust the zoom level so you can see all the markers
 //9. Modify the loop so that you make each marker clickable. When clicked the name of the takeaway should be displayed in the console. It would probably be a good idea to use a closure to do this. Have a look at the example at the end of last week's lecture slides. 
 //10. Instead of displaying the details for the takeaway in the console.log can you display them in the HTML page, in the div called 'info'. It already has some CSS applied so that it overlaps the map. 
-//11. Have a look at https://leafletjs.com/reference-1.3.4.html#latlngbounds. How can you make the map autmaotically adjust the zoom level to show all the markers?
+//11. Have a look at https://leafletjs.com/reference-1.3.4.html#latlngbounds. How can you make the map automatically adjust the zoom level to show all the markers?
