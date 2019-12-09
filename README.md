@@ -7,3 +7,4 @@
 * *index.html*. This is the HTML file that is used in practical exercises. This HTML file uses a JavaScript file, exercises.js
 * *exercises.js*. Open this in a text editor of your choice. This is where you will write your JavaScript. It already contains some code to get you started. It also contains the exercise questions (in comments, leave these questions commented out).
 
+Again like the previous weeks, you will need to run the example on a web server.
