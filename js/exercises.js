@@ -1,28 +1,15 @@
 
 
-function initMap(lat, lng)
+function initMap()
 {
-	myMap = L.map('map').setView([lat, lng], 17);
+	myMap = L.map('map').setView([51.178956, -1.826236], 17);
 	L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	 	attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
 	    maxZoom: 18
 	 }).addTo(myMap);
-
-	let marker = L.marker([lat,lng]).addTo(myMap);
- 	marker.bindPopup("You are here").openPopup();
-
- 	let hudMarker = L.marker([53.643806, -1.778755]).addTo(myMap);
- 	hudMarker.bindPopup("Huddersfield").openPopup();
-
- 	let bounds = L.latLngBounds()
- 	bounds.extend(L.latLng(lat, lng));
- 	bounds.extend(L.latLng(53.643806, -1.778755));
-
- 	myMap.fitBounds(bounds,{padding:[50,50]});
-
 }
 
-
+/*
 function itWorks(position)
 {
 	let latitude = position.coords.latitude;
@@ -41,9 +28,9 @@ function getLocation()
 {
 	navigator.geolocation.getCurrentPosition(itWorks, itDoesntWork);
 }
+*/
 
-
-window.addEventListener("load",getLocation); // calls getLocation when the page loads
+window.addEventListener("load",initMap); // calls initMap when the page loads
 
 
 /*
