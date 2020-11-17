@@ -2,50 +2,35 @@
 <html>
 <head>
 <title>A simple leaflet example</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+
 <!-- Link to Leaflet's CSS -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-crossorigin=""/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
 
 <!-- Link to Leaflet's JavaScript -->
-<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
-integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-crossorigin="">
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
 
 </script>
 
 <style>
 
+
 #map {
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 600px;
 }
-
-.info {
-    padding: 5px;
-    font: 14px Arial, Helvetica, sans-serif;
-    background: white;
-    background: rgba(255,255,255,0.9);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-    width:200px;
-    position:relative;
-    top:-200px;
-    left:20px;
-    z-index:1000;
-}
-
 
 </style>
 
 </head>
 <body>
-<div id="map"></div>
-<div id="info" class="info">
-<h4 id="takeawayName"></h4>
-<p id="takeawayDesc"></p>
-</div>
+<div id="map"></div> <!-- the map will appear in this <div> element -->
+  
 <script src="js/exercises.js"></script>
 </body>
 </html>
