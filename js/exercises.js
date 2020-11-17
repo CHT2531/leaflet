@@ -42,7 +42,7 @@ c) Add a marker at the university's location. See https://leafletjs.com/referenc
 
 /*
 2. Uncomment the functions itWorks(), itDoesntWork() and getLocation(). These are for working with the Geolocation API. Change the window load event listener so that it calls getLocation() instead of initMap(). If this works you should get your current position displayed in the console.
-a) If you look at the final line of itWorks(), it calls initMap() and passes the user's latitutde and longitude as arguments. Can you use these values to centre the map on the user's location?
+a) If you look at the final line of itWorks(), it calls initMap() and passes the user's latitude and longitude as arguments. Can you use these values to centre the map on the user's location?
 b) Can you add a marker at the user's location? You should now have two markers. One for the university and one for the user's location.
-c) Depending on your location and the zoom level of the map, the user's location and the university's location might not be visible. Have a got at using fitBounds() to rescale the map to fit the markers (https://leafletjs.com/reference-1.7.1.html#latlngbounds).
+c) Depending on your location and the zoom level of the map, the user's location and the university's location might not be visible. Have a go at using fitBounds() to rescale the map to fit the markers (https://leafletjs.com/reference-1.7.1.html#latlngbounds).
 */
