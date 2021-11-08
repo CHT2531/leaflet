@@ -35,9 +35,9 @@ window.addEventListener("load",initMap); // calls initMap when the page loads
 
 /*
 1. Open the HTML page in a browser. The page should be displaying a map. This example is similar to one shown in https://leafletjs.com/examples/quick-start/. To test your understanding try and make the following changes:
-a) Instead of the map being centred on Huddersfield, centre the map on Stonehenge (latitude:51.178956, longitude-1.826236).
+a) Instead of the map being centred on Huddersfield, centre the map on Stonehenge (latitude:51.178956, longitude:-1.826236).
 b) Change the zoom level of the map.
-c) Add a marker at the the location of Stonehenge. See https://leafletjs.com/reference.html#marker for some advice.
+c) Add a marker at the location of Stonehenge. See https://leafletjs.com/reference.html#marker for some advice.
 */
 
 /*
