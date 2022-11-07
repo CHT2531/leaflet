@@ -9,28 +9,28 @@ function initMap()
 	 }).addTo(myMap);
 } //end of initMap, don't remove this
 
-/*
-function itWorks(position)
-{
-	let latitude = position.coords.latitude;
-	let longitude = position.coords.longitude;
-	console.log('latitude: '+latitude);
-	console.log('longitude: '+longitude);
-	initMap(latitude,longitude); //calls initMap and passes the user's latitude and longitude
-}
 
-function itDoesntWork(error)
-{
-	console.log('There is an error '+error);
-}
+// function itWorks(position)
+// {
+// 	let latitude = position.coords.latitude;
+// 	let longitude = position.coords.longitude;
+// 	console.log('latitude: '+latitude);
+// 	console.log('longitude: '+longitude);
+// 	initMap(latitude,longitude); //calls initMap and passes the user's latitude and longitude
+// }
 
-function getLocation()
-{
-	navigator.geolocation.getCurrentPosition(itWorks, itDoesntWork);
-}
-*/
+// function itDoesntWork(error)
+// {
+// 	console.log('There is an error '+error);
+// }
 
-window.addEventListener("load",initMap); // calls initMap when the page loads
+// function getLocation()
+// {
+// 	navigator.geolocation.getCurrentPosition(itWorks, itDoesntWork);
+// }
+
+
+window.addEventListener("load", initMap); // calls initMap when the page loads
 
 
 /*
